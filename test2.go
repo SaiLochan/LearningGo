@@ -1,13 +1,13 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-
-	//var tS [3]int = [3]int{20, 26, 90}
-	//fmt.Printf(string(tS[1]))
-	fmt.Println("Hi")
-
+    
+    a := 0
+    for i := 0; i < 10; i++ {
+        a = i
+        fmt.Println(a)
+    } //simple code to count till 10
+    
 }
