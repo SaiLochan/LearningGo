@@ -1,14 +1,15 @@
 package main
 
 import "fmt"
-// hello world 1
+
+// hello hello git test
 
 func main() {
-    
-    a := 0
-    for i := 0; i < 10; i++ {
-        a = i
-        fmt.Println(a)
-    } //simple code to count till 10
-    
+
+	a := 0
+	for i := 0; i < 10; i++ {
+		a = i
+		fmt.Println(a)
+	} //simple code to count till 10
+
 }
